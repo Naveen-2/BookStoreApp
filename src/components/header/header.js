@@ -2,7 +2,7 @@ import React from "react";
 import bookIcon from "../../assets/icons/education.svg";
 import cartIcon from "../../assets/icons/supermarket.svg";
 import "./header.css";
-
+import {Link} from "react-router-dom";
 
 export default function Header(){
     return(
@@ -16,12 +16,14 @@ export default function Header(){
             <div className="search-bar">
                 <input type="text" placeholder="   🔍Search..."></input>
             </div>
+            <Link to="/cart-page">
             <div className="cart-content">
                 <div className="cart-content-text">Cart</div>
                 <div className="cart-content-logo">
                     <img src={cartIcon} alt="cart icon" />
                 </div>
             </div>
+            </Link>
         </header>
     );
 }

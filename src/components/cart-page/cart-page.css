@@ -10,7 +10,17 @@
     align-items: flex-end;
 }
 
-.item-image-container {
+.cart-item-image-container {
     height: 85px;
     width: 65px;
+}
+
+.cart-items-quantity {
+    width: 25px;
+    text-align: center;
+}
+
+.cart-items-remove, .cart-items-add {
+    border-radius: 80%;
+    border: 1px solid #9D9D9D;
 }
