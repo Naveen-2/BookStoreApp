@@ -50,3 +50,10 @@
 .cart-content-logo {
     margin-left: 11px;
 }
+
+.cart-length {
+    margin: 2px;
+    font-size: 12px;
+    vertical-align: super;
+    color: #FFFFFF;
+}
